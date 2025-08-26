@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Services | Gym Name</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+
+            background-image: url('2.jpg');
+            background-size: cover;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            background-color: brown;
+            transition: 5s;
+            animation: change 10s reverse;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        h1, h2, h3 {
+            text-align: center;
+            color:firebrick ;
+            margin-top: 20px;
+        }
+
+        p {
+            text-align: center;
+            color:#ffad06;
+            margin-bottom: 20px;
+        }
+
+        .section {
+            margin-bottom: 50px;
+        }
+
+        .section-title {
+            font-size: 24px;
+            margin-bottom: 10px;
+            color:firebrick;
+            text-align: left;
+        }
+
+        .section-content {
+            text-align: left;
+        }
+
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+
+        .service-card {
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            text-align: center;
+            transition: transform 0.3s;
+        }
+
+        .service-card:hover {
+            transform: translateY(-10px);
+        }
+
+        .service-card img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            margin-bottom: 15px;
+        }
+
+        .service-card h3 {
+            color: firebrick;
+            margin-bottom: 15px;
+        }
+
+        .service-card p {
+            color: #555;
+            margin-bottom: 20px;
+        }
+
+        .service-card a {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color:#ffad06 ;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        .service-card a:hover {
+            background-color: #ff105f;
+        }
+
+        .payment-protocols, .membership-info {
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0 0 10px #fff(0, 0, 0, 0.1);
+            border-radius: 10px;
+            margin-bottom: 20px;
+
+            background-image: url('charles.jpg');
+            background-size:cover;
+            background-attachment:fixed;
+            background-repeat: no-repeat;
+        }
+
+        .opening-hours {
+            background-color: transparent;
+            color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 50px;
+            text-align: center;
+        }
+
+        .opening-hours h2 {
+            margin-bottom: 15px;
+        }
+
+        .opening-hours p {
+            margin: 5px 0;
+        }
+
+        .payment-protocols ul li {
+            color: #fff;
+        }
+
+        .membership-info ul li {
+            color: #fff;
+        }
+
+        @media (max-width: 600px) {
+            h1, h2, h3 {
+                font-size: 24px;
+            }
+
+            .service-card {
+                padding: 15px;
+            }
+
+            .service-card h3 {
+                font-size: 18px;
+            }
+
+            .section-title {
+                font-size: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Our Services</h1>
+        <p>Welcome to Tobii fitness! Explore our services, check our operating hours, and learn more about our payment options and membership plans.</p>
+
+        <!-- Opening Hours Section -->
+        <div class="opening-hours section">
+            <h2>Gym Opening & Closing Times</h2>
+            <p><strong>Monday - Friday:</strong> 5:00 AM - 10:00 PM</p>
+            <p><strong>Saturday:</strong> 6:00 AM - 8:00 PM</p>
+            <p><strong>Sunday:</strong> 8:00 AM - 6:00 PM</p>
+            <p><strong>Holidays:</strong> Please check with the front desk or our website for holiday hours.</p>
+        </div>
+
+        <!-- Services Offered Section -->
+        <div class="section">
+            <h2 class="section-title">Services Offered</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <img src="2.jpg" alt="Personal Training">
+                    <h3>Personal Training</h3>
+                    <p>Get one-on-one training sessions tailored to your fitness goals and needs.</p>
+                    <a href="#">Learn More</a>
+                </div>
+
+                <div class="service-card">
+                    <img src="2.jpg" alt="Group Fitness Classes">
+                    <h3>Group Fitness Classes</h3>
+                    <p>Join our exciting group classes including yoga, Zumba, spinning, and more.</p>
+                    <a href="#">Learn More</a>
+                </div>
+
+                <div class="service-card">
+                    <img src="2.jpg" alt="Strength & Conditioning">
+                    <h3>Strength & Conditioning</h3>
+                    <p>Improve your strength, endurance, and overall fitness with our top-of-the-line equipment.</p>
+                    <a href="#">Learn More</a>
+                </div>
+
+                <div class="service-card">
+                    <img src="2.jpg" alt="Nutritional Guidance">
+                    <h3>Nutritional Guidance</h3>
+                    <p>Work with our nutritionists to create a diet plan that complements your fitness routine.</p>
+                    <a href="#">Learn More</a>
+                </div>
+
+                <div class="service-card">
+                    <img src="2.jpg" alt="Sauna & Spa">
+                    <h3>Sauna & Spa</h3>
+                    <p>Relax and rejuvenate with our sauna, steam rooms, and spa services.</p>
+                    <a href="#">Learn More</a>
+                </div>
+
+                <div class="service-card">
+                    <img src="2.jpg" alt="Swimming Pool">
+                    <h3>Swimming Pool</h3>
+                    <p>Enjoy our indoor swimming pool, available for laps, lessons, and leisure.</p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Payment Protocols Section -->
+        <div class="section">
+            <h2 class="section-title">Payment Protocols</h2>
+            <div class="payment-protocols section-content">
+                <p>We offer flexible payment options to suit your needs. Payments can be made via:</p>
+                <ul>
+                    <li>Credit/Debit Card (Visa, MasterCard, Amex)</li>
+                    <li>Direct Debit for recurring memberships</li>
+                    <li>Cash payments at the front desk</li>
+                    <li>Online payments through our secure portal</li>
+                </ul>
+                <p>All payments are processed securely. Membership fees are non-refundable. Please refer to our terms and conditions for more details.</p>
+            </div>
+        </div>
+
+        <!-- Membership Information Section -->
+        <div class="section">
+            <h2 class="section-title">Membership Information</h2>
+            <div class="membership-info section-content">
+                <p>Choose from a variety of membership plans designed to fit your lifestyle and fitness goals:</p>
+                <ul>
+                    <li><strong>Monthly Membership:</strong> $50/month with no long-term commitment.</li>
+                    <li><strong>Annual Membership:</strong> $500/year with additional perks and discounts.</li>
+                    <li><strong>Student Membership:</strong> $30/month with a valid student ID.</li>
+                    <li><strong>Family Membership:</strong> $120/month for up to 4 family members.</li>
+                </ul>
+                <p>Memberships include access to all gym facilities, group classes, and special events. Additional fees may apply for personal training and spa services.</p>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>
